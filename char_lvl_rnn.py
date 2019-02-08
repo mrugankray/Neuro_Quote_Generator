@@ -5,7 +5,7 @@ from torch import nn
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 
-with open('/media/mrugank/626CB0316CB00239/for development purpose only/python/facebook pytorch/RNN/generated_text_file/quote.txt', 'r') as f:
+with open('generated_text_file/quote.txt', 'r') as f:
     text = f.read()
 
 #reduced text size by around 10 times
